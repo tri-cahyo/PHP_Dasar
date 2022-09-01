@@ -1,0 +1,11 @@
+CREATE DATABASE petshop_db;
+
+use petshop_db;
+CREATE TABLE pet(
+    pet_id int PRIMARY KEY NOT NULL AUTO_INCREMENT,
+    pet_name varchar(100),
+    jenis varchar(100) NOT NULL,
+    ras varchar(100),
+    usia varchar(100),
+    harga int NOT NULL
+);
